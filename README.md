@@ -38,36 +38,43 @@ Following searches for pdf file in the domain yahoo.com
 
 
 
-intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
-
-
-inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
-
-intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
-
-link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
-
-cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
-
- 
 #DNS Enumeration
 
 
+## OUTPUT:
+  
+ ## Output
+  <img width="1010" height="830" alt="image" src="https://github.com/user-attachments/assets/98fcc072-2fbe-4183-9577-f414246c3e63" />
+
+intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+ ## Output:
+ <img width="823" height="871" alt="image" src="https://github.com/user-attachments/assets/2f4e7362-b19b-4241-b2ca-4cd12d45a7ae" />
+ 
+## Output:
+<img width="738" height="587" alt="image" src="https://github.com/user-attachments/assets/d5d5bda6-3cd1-4d7a-a41b-3c575ea7bc80" />
+## Output:
+<img width="736" height="500" alt="image" src="https://github.com/user-attachments/assets/b2249f98-80d7-4a39-9932-687c6f8b72e5" />
+intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+## Output :
+<img width="816" height="813" alt="image" src="https://github.com/user-attachments/assets/62859770-2772-45dc-83d8-bf1cc2c6564c" />
+
+link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+## OUtput 
+<img width="802" height="438" alt="image" src="https://github.com/user-attachments/assets/5269fbe6-24c8-4004-b4ef-a2dbda8a7d3e" />
+cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 ##DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
-## OUTPUT:
 
+<img width="576" height="119" alt="image" src="https://github.com/user-attachments/assets/7c5ee3bb-c57f-4675-a400-de19d445327d" />
+<img width="781" height="775" alt="image" src="https://github.com/user-attachments/assets/c0153d81-7533-4c6e-af6b-756888363d15" />
 
+<img width="637" height="436" alt="image" src="https://github.com/user-attachments/assets/ea4671f8-6c94-43e7-b43f-3095d1fede01" />
 
-
-
-
-
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -96,16 +103,15 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
-  
-  
+
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
+<img width="633" height="339" alt="image" src="https://github.com/user-attachments/assets/ac11f1e7-4175-40b7-937a-b9fd0e2b8636" />
 
 
-## OUTPUT:
+
 
 
 ## RESULT:
